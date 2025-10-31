@@ -27,9 +27,10 @@ int main() {
             cout << "Sonuc: " << sayi1 << " - " << sayi2 << " = " << (sayi1 - sayi2) << endl;
             break;
 
-        case '*': 
+         case '*': 
             cout << "Sonuc: " << sayi1 << " * " << sayi2 << " = " << (sayi1 * sayi2) << endl;
             break;
+
 
         case '/': 
            
@@ -44,7 +45,9 @@ int main() {
             cout << "Hata! Gecersiz bir islem girdiniz." << endl;
             break;
     }
+    
 
     return 0; 
 
 }
+
