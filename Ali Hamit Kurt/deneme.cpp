@@ -17,10 +17,11 @@ int main() {
     cout << "Ikinci sayiyi girin: ";
     cin >> sayi2;
     
-    switch (islem) {
+     switch (islem) {
         case '+': 
             cout << "Sonuc: " << sayi1 << " + " << sayi2 << " = " << (sayi1 + sayi2) << endl;
             break; 
+
 
         case '-': 
             cout << "Sonuc: " << sayi1 << " - " << sayi2 << " = " << (sayi1 - sayi2) << endl;
@@ -45,4 +46,5 @@ int main() {
     }
 
     return 0; 
+
 }
